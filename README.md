@@ -110,7 +110,7 @@ figure {
 ```
 
 
-## Remove duplicate "Read more" links in latest post blog
+## Remove duplicate "Read more" links in latest posts block
 
 ```
 /* duplicate more link  */
