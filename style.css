@@ -1,0 +1,105 @@
+/*
+ Theme Name:   Twenty Fourteen ihr.world
+ Theme URI:    https://github.com/mvtango/twentyfourteen-ihr
+ Description:  Twenty Fourteen Child Theme for ihr.world
+ Author:       Martin Virtel
+ Author URI:   https://twitter.com/mvtango
+ Template:     twentyfourteen
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: blog, news, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, footer-widgets, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+ Text Domain: twentyfourteen
+*/
+
+
+.page-template-full-width div#main {
+	
+	position:absolute;
+	width: 100%;
+}
+
+.page-template-full-width div#content {
+
+	margin-left:0px;
+}
+
+.page-template-full-width div#secondary {
+ display: none;
+}
+
+.page-template-full-width .entry-content {
+ background-color: transparent;
+}
+
+
+/* Buscador Imágen */
+
+ .buscador-imagen {
+	position:absolute;
+	width: 50%;
+	margin-left: auto;
+	top: 350px;
+}
+
+@media only screen and (max-width: 650px) {
+ .buscador-imagen {
+	top: 250px;
+	width: 60%;
+	margin-left: auto;
+ }
+}
+
+@media only screen and (max-width: 450px) {
+ .buscador-imagen {
+	top: 200px;
+	width: 80%;
+	margin-left: auto;
+}
+}
+
+@media only screen and (max-width: 350px) {
+ .buscador-imagen {
+	top: 150px;
+	width: 90%;
+	margin-left: auto;
+ }
+}
+
+
+
+
+.buscador-imagen
+figure {
+	width:100%;
+	position: relative;
+	left: -20%;
+}
+
+.buscador-imagen form {
+	opacity: 0.8;
+	white-space: nowrap;
+}
+
+.buscador-imagen input[type=search] {
+}
+
+.buscador-imagen button {
+	background-color: #374d33;
+}
+
+.buscador-imagen .wp-block-search {
+	flex-wrap: nowrap;
+	
+}
+
+/* duplicate more link  */
+.wp-block-latest-posts__post-excerpt .more-link {
+	
+	display: none;
+}
+
+
+
+
+
