@@ -102,4 +102,9 @@ figure {
 
 
 
+/* logo título */
 
+.site-title a::before {
+	content: url(/wp-content/themes/twentyfourteen-ihr/images/cropped-IHR_Logo_600_square_transp-_skaliert_40x40.png);
+	float: left;
+}
